@@ -29,5 +29,39 @@ Una aplicación de consola desarrollada en Java con Spring Boot que permite busc
 ## Configuración
 
 1. Clonar el repositorio:
-```bash
-git clone https://github.com/UNIJUAN/book-catalogo-api.git
+1.Crear una base de datos PostgreSQL llamada 'book_catalogo'
+2.Copiar application.properties.example a application.properties
+3.Actualizar las credenciales de base de datos en application.properties
+
+## Ejecución
+
+1.Compilar el proyecto
+- mnv clean install
+
+2.Ejecutar la aplicación
+- mnv spring-boot:run
+
+## Uso
+La aplicación muestra un menú con las siguientes opciones:
+
+1.Buscar libro por título
+2.Listar libros registrados
+3.Listar autores registrados
+4.Listar libros por idioma
+0.Salir
+
+## Etructura del Proyecto
+
+src/
+├── main/
+│   ├── java/
+│   │   └── com/example/catalog/bookcatalog/
+│   │       ├── model/
+│   │       ├── repository/
+│   │       ├── service/
+│   │       └── controller/
+│   └── resources/
+
+## Autor
+- UNIJUAN - juan.bogota@uniminuto.edu.co
+
