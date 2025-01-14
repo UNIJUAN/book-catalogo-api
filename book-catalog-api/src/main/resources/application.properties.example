@@ -1,0 +1,11 @@
+spring.application.name=book-catalog
+
+# Database Configuration
+spring.datasource.url=jdbc:postgresql://localhost:5432/book_catalogo
+spring.datasource.username=your_username
+spring.datasource.password=your_password
+
+# JPA Configuration
+spring.jpa.hibernate.ddl-auto=update
+spring.jpa.show-sql=true
+spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.PostgreSQLDialect
